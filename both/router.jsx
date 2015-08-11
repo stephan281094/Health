@@ -7,12 +7,6 @@ FlowRouter.route("/", {
   }
 });
 
-FlowRouter.route("/about", {
-  action() {
-    ReactLayout.render(MainLayout, { content: <About /> });
-  }
-});
-
 FlowRouter.notFound = {
   action() {
     ReactLayout.render(MainLayout, { content: <NotFound /> });
