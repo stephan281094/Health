@@ -6,6 +6,6 @@ MainLayout = React.createClass({
                 <Header />
                 <main>{this.props.content}</main>
             </div>
-        );
+        )
     }
-});
+})

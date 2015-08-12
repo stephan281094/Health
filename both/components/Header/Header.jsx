@@ -7,6 +7,6 @@ Header = React.createClass({
                 <a href="/">Home</a> &nbsp;
                 <a href="/bad-url">Not Found Page</a> &nbsp;
             </header>
-        );
+        )
     }
-});
+})
