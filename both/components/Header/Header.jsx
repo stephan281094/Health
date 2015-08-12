@@ -1,5 +1,6 @@
 Header = React.createClass({
-    render() {
+    render: function() {
+        'use strict'
         return (
             <header className='Header'>
                 <b>Header</b> &nbsp;

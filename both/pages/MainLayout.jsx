@@ -1,5 +1,6 @@
 MainLayout = React.createClass({
-    render() {
+    render: function() {
+        'use strict'
         return (
             <div>
                 <Header />

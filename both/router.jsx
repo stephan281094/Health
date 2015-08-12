@@ -1,11 +1,13 @@
 FlowRouter.route('/', {
-    action() {
+    action: function() {
+        'use strict'
         ReactLayout.render(MainLayout, { content: <Home /> });
     }
 });
 
 FlowRouter.notFound = {
-    action() {
+    action: function() {
+        'use strict'
         ReactLayout.render(MainLayout, { content: <NotFound /> });
     }
 };

@@ -1,0 +1,19 @@
+{
+  "ecmaFeatures": {
+    jsx: true
+  },
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "strict": 1,
+    "quotes": [2, "single"],
+    "no-underscore-dangle": 0,
+    "curly": 0,
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "meteor": true
+  }
+}
