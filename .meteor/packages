@@ -11,4 +11,4 @@ fourseven:scss
 wolves:bourbon
 meteorhacks:flow-router
 kadira:react-layout
-react
+react@0.1.10
